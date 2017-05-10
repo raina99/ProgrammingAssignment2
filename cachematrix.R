@@ -36,9 +36,6 @@
  ## Using IF loop to inspect value of inverse and return the same if not NULL
  ## If its NULL then use solve to compute inverse 
  ## Use setinverse to set computed inverse as inverse
- makeCacheMatrix <- function(x = matrix()) {
-   
- }
  
  cacheSolve <- function(x, ...) {
    i <-  x$getinverse()
